@@ -25,4 +25,13 @@ This project implements a multi-cycle RISC-V processor using SystemVerilog. It c
 
 ## Project Structure
 
-The repository contains the RTL source code, testbenches, and supporting design files for the processor implementation.
+```text
+riscv-processor/
+├── riscv/       # RISC-V processor RTL source code
+├── constr/      # FPGA constraints
+├── firmware/    # Firmware and test programs
+├── fpga/        # FPGA project files
+├── report/      #  Datapath and control unit design diagrams (PDF)
+└── README.md
+```
+
